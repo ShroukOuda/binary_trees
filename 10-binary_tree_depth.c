@@ -12,6 +12,11 @@ size_t binary_tree_depth(const binary_tree_t *tree)
 		return (0);
 	return (Depth(tree));
 }
+/**
+ * Depth - depth function
+ * @tree: is a pointer to the node.
+ * Return: depth of node, 0 if tree is NULL
+ */
 size_t Depth(const binary_tree_t *tree)
 {
 	if (!tree)
